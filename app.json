@@ -1,0 +1,21 @@
+{
+  "name": "حاسبة المساحات والتحويلات",
+  "description": "تطبيق متكامل للتحويل بين وحدات المساحة المختلفة وحساب مساحات الأشكال الهندسية",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "icon": "./assets/icon.png",
+  "splash": {
+    "image": "./assets/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#0f1724"
+  },
+  "android": {
+    "package": "com.area.converter",
+    "versionCode": 1,
+    "permissions": ["INTERNET", "ACCESS_NETWORK_STATE"]
+  },
+  "ios": {
+    "bundleIdentifier": "com.area.converter",
+    "buildNumber": "1.0.0"
+  }
+}
